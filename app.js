@@ -67,6 +67,12 @@ const car = {
 
 // Your code here
 
+const myCar = {...car}
+console.log('Clone: ', myCar)
+
+myCar.model = 'q7'
+console.log('Model: ', car.model)
+console.log('Model: ', myCar.model)
 
 // ==== Exercise 6 === //
 // ==== Exercise 7 === //
