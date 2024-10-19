@@ -2,16 +2,16 @@
 
 // Use `.map()` to iterate over the following array:
 
-const nums = [13, 87, 2, 89, 12, 4, 90, 63];
+// const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 // Create a new array where each value is multiplied by 2 and log the new array.
 
 // Your code here
-const nums2 = nums.map((currentElement) => {
-    return currentElement * 2
-})
+// const nums2 = nums.map((currentElement) => {
+//     return currentElement * 2
+// })
 
-console.log(nums2)
+// console.log(nums2)
 
 // ==== Exercise 2 ==== //
 
@@ -46,33 +46,33 @@ console.log(nums2)
 
 // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
 
-const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
 
-const controversialPizzaToppings = [...pizzaToppings]
+// const controversialPizzaToppings = [...pizzaToppings]
 
-console.log(controversialPizzaToppings)
+// console.log(controversialPizzaToppings)
 
 // ==== Exercise 5 === //
 
 // Duplicate the following object and spread its values into a new variable `myCar`.
 
-const car = {
-    make: 'Audi',
-    model: 'q5',
-  };
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   };
   
 // Change the `model` property of `myCar` to 'q7'. Log both objects.
 
 // Your code here
 
-const myCar = {...car}
-console.log('Clone: ', myCar)
+// const myCar = {...car}
+// console.log('Clone: ', myCar)
 
-myCar.model = 'q7'
-console.log('Model: ', car.model)
-console.log('Model: ', myCar.model)
+// myCar.model = 'q7'
+// console.log('Model: ', car.model)
+// console.log('Model: ', myCar.model)
 
 // ==== Exercise 6 === //
 
@@ -82,15 +82,33 @@ console.log('Model: ', myCar.model)
 
 // Your code here
 
-const userProfile = {}
+// const userProfile = {}
 
-const propertyName = 'username'
-userProfile[propertyName] = 'samtastic'
+// const propertyName = 'username'
+// userProfile[propertyName] = 'samtastic'
 
-console.log(userProfile)
+// console.log(userProfile)
 
 // ==== Exercise 7 === //
 // ==== Exercise 8 === //
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+function logSentence(noun = 'cat', adjective = 'white') {
+    console.log(`The ${noun} is ${adjective}`)
+}
+
+logSentence()
+logSentence('dolphin', 'purple')
+logSentence('elephant', 'orange')
+
+// Your code here
 // ==== Exercise 9 === //
 // ==== Exercise 10 === //
 // ==== Exercise 11 === //
