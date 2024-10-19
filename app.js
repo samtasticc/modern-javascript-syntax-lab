@@ -25,3 +25,28 @@ const [bestTopping, worstTopping] = pizzaToppings
 
 console.log(bestTopping)
 console.log(worstTopping)
+
+// ==== Exercise 3 === //
+
+// Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
+
+const car = {
+    make: 'Audi',
+    model: 'q5',
+  };
+  
+  // Your code here
+
+const {make, model} = car
+
+console.log(make)
+console.log(model)
+
+  // ==== Exercise 4 === //
+  // ==== Exercise 5 === //
+  // ==== Exercise 6 === //
+  // ==== Exercise 7 === //
+  // ==== Exercise 8 === //
+  // ==== Exercise 9 === //
+  // ==== Exercise 10 === //
+  // ==== Exercise 11 === //
