@@ -100,15 +100,30 @@
 
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
-function logSentence(noun = 'cat', adjective = 'white') {
-    console.log(`The ${noun} is ${adjective}`)
-}
+// function logSentence(noun = 'cat', adjective = 'white') {
+//     console.log(`The ${noun} is ${adjective}`)
+// }
 
-logSentence()
-logSentence('dolphin', 'purple')
-logSentence('elephant', 'orange')
+// logSentence()
+// logSentence('dolphin', 'purple')
+// logSentence('elephant', 'orange')
 
 // Your code here
 // ==== Exercise 9 === //
+
+// Convert the following `if...else` statement in to a ternary:
+
+// let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+
+// let pizza = 'tasty' ? console.log('yum') : console.log('yuck')
+
 // ==== Exercise 10 === //
 // ==== Exercise 11 === //
